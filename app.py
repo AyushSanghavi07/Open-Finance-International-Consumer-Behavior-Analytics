@@ -78,7 +78,7 @@ except ImportError:
 # ====================================================
 
 # 🔑 Configure Gemini API (use your real key here)
-GEMINI_API_KEY = "AIzaSyBicYdo9KhbKiwRKbW8mtIP193U6i4ps3Y"  # <-- REPLACE THIS
+GEMINI_API_KEY = "API KEY"  # <-- REPLACE THIS
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Choose models (easy to change in one place)
@@ -1113,6 +1113,7 @@ elif page == "🚨 Fraud Detection":
 
     else:
         st.info("⬆️ Please upload a CSV file to begin AI fraud analysis.")
+
 
 
 
